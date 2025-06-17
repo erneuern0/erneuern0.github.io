@@ -23,6 +23,8 @@ function showLetter() {
     // Fade-out bittikten sonra (1 saniye sonra) mektubu tamamen gizle
     setTimeout(() => {
       letter.style.display = "none";
+      window.location.href = "album.html";
+
     }, 1000);
   }, 2000); // 2 dakika sonra kaybol
 }
